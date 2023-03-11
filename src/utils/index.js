@@ -40,14 +40,14 @@ export function getTimeframe(timeWindow) {
 export function getPoolLink(token0Address, token1Address = null, remove = false) {
   if (!token1Address) {
     return (
-      `https://app.levinswap.org/` +
+      `https://app.levinswap.realt.community/` +
       "#/" +
       (remove ? `remove` : `add`) +
       `/${token0Address === '0xe91d153e0b41518a2ce8dd3d7944fa863463a97d' ? 'ETH' : token0Address}/${'ETH'}`
     )
   } else {
     return (
-      `https://app.levinswap.org/` +
+      `https://app.levinswap.realt.community/` +
       "#/" +
       (remove ? `remove` : `add`) +
       `/${token0Address === '0xe91d153e0b41518a2ce8dd3d7944fa863463a97d' ? 'ETH' : token0Address}/${token1Address === '0xe91d153e0b41518a2ce8dd3d7944fa863463a97d' ? 'WXDAI' : token1Address
@@ -58,9 +58,9 @@ export function getPoolLink(token0Address, token1Address = null, remove = false)
 
 export function getSwapLink(token0Address, token1Address = null) {
   if (!token1Address) {
-    return `https://app.levinswap.org/https://uniswap.exchange/swap?inputCurrency=${token0Address}`
+    return `https://app.levinswap.realt.community/swap?inputCurrency=${token0Address}`
   } else {
-    return `https://app.levinswap.org/swap?inputCurrency=${token0Address === '0xe91d153e0b41518a2ce8dd3d7944fa863463a97d' ? 'ETH' : token0Address
+    return `https://app.levinswap.realt.community/swap?inputCurrency=${token0Address === '0xe91d153e0b41518a2ce8dd3d7944fa863463a97d' ? 'ETH' : token0Address
       }&outputCurrency=${token1Address === '0xe91d153e0b41518a2ce8dd3d7944fa863463a97d' ? 'ETH' : token1Address}`
   }
 }

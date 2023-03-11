@@ -4,8 +4,8 @@ import { Flex } from 'rebass'
 import Link from '../Link'
 
 const links = [
-  { url: 'https://wiki.levinswap.org/levinswap-wiki/', text: 'About' },
-  { url: 'https://wiki.levinswap.org/levinswap-wiki/', text: 'Docs' },
+  { url: 'https://wiki.levinswap.realt.community/levinswap-wiki/', text: 'About' },
+  { url: 'https://wiki.levinswap.realt.community/levinswap-wiki/', text: 'Docs' },
   { url: 'https://github.com/levinswap/uniswap-info', text: 'Code' },
 ]
 

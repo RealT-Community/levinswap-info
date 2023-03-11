@@ -164,12 +164,12 @@ function SideNav({ history }) {
           </AutoColumn>
           <AutoColumn gap="0.5rem" style={{ marginLeft: '.75rem', marginBottom: '4rem' }}>
             <HeaderText>
-              <Link href="https://levinswap.org" target="_blank">
+              <Link href="https://levinswap.realt.community" target="_blank">
                 Levinswap
               </Link>
             </HeaderText>
             <HeaderText>
-              <Link href="https://wiki.levinswap.org//" target="_blank">
+              <Link href="https://wiki.levinswap.realt.community/" target="_blank">
                 Docs
               </Link>
             </HeaderText>
