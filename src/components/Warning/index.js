@@ -75,7 +75,7 @@ export default function Warning({ type, show, setShow, address }) {
                 href={'https://gnosisscan.io/address/' + address}
                 target="_blank"
               >
-                View {type === 'token' ? 'token' : 'pair'} contract on Blockscout
+                View {type === 'token' ? 'token' : 'pair'} contract on Gnosisscan
               </Link>
             </Hover>
             <RowBetween style={{ marginTop: '20px' }}>
@@ -95,7 +95,7 @@ export default function Warning({ type, show, setShow, address }) {
                 href={'https://gnosisscan.io/address/' + address}
                 target="_blank"
               >
-                View {type === 'token' ? 'token' : 'pair'} contract on Blockscout
+                View {type === 'token' ? 'token' : 'pair'} contract on Gnosisscan
               </Link>
             </Hover>
             <ButtonDark color={'#f82d3a'} style={{ minWidth: '140px' }} onClick={() => setShow(false)}>

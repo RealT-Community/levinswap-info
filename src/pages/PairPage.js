@@ -461,7 +461,7 @@ function PairPage({ pairAddress, history }) {
                   </Column>
                   <ButtonLight color={backgroundColor}>
                     <Link color={backgroundColor} external href={'https://gnosisscan.io/address/' + pairAddress}>
-                      View on Blockscout ↗
+                      View on Gnosisscan ↗
                     </Link>
                   </ButtonLight>
                 </TokenDetailsLayout>

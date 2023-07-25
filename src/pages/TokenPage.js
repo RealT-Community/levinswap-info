@@ -374,7 +374,7 @@ function TokenPage({ address, history }) {
                   </Column>
                   <ButtonLight color={backgroundColor}>
                     <Link color={backgroundColor} external href={'https://gnosisscan.io/address/' + address}>
-                      View on Blockscout ↗
+                      View on Gnosisscan ↗
                     </Link>
                   </ButtonLight>
                 </TokenDetailsLayout>
