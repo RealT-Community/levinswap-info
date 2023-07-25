@@ -460,7 +460,7 @@ function PairPage({ pairAddress, history }) {
                     </AutoRow>
                   </Column>
                   <ButtonLight color={backgroundColor}>
-                    <Link color={backgroundColor} external href={'https://blockscout.com/poa/xdai/address/' + pairAddress}>
+                    <Link color={backgroundColor} external href={'https://gnosisscan.io/address/' + pairAddress}>
                       View on Blockscout ↗
                     </Link>
                   </ButtonLight>
