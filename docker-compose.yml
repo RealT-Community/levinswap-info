@@ -6,7 +6,7 @@ services:
       - traefik-realt
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.levinswap-info.rule=Host(`info.levinswap.realt.community`)"
+      - "traefik.http.routers.levinswap-info.rule=Host(`info.levinswap.realtoken.community`)"
       - "traefik.http.routers.levinswap-info.entrypoints=websecure"
     restart: always
 
